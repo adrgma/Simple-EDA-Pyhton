@@ -21,5 +21,5 @@ print(std_value.sort_values())
 
 # 4. Buat histogram quantity penjualan dari dataset tersebutuntuk melihat persebaran quantity 
 # penjualan tersebut dengan bins = 5 dan figsize= (6,7)
-order_df[["quantity"]].hist(figsize=(4, 5), bins=5)
+order_df[["quantity"]].hist(figsize=(6, 7), bins=5)
 plt.show()
